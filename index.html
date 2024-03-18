@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BULB</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>
+
+        <img src="./bulboff.jpg" alt="LOAD" id="o">
+        <button onclick="on()" id="k" > on </button>
+        <button onclick="off()" id="f" >off</button>
+        </center>
+        <script>
+            function on(){
+                var on=document.getElementById("o");
+                on.src="./bulbon.jpg"; 
+            }
+            function off(){
+                var off=document.getElementById("o");
+                off.src="./bulboff.jpg";
+            }
+            </script>
+    
+</body>
+</html>
